@@ -1,0 +1,38 @@
+What is MLflow ?
+
+MLflow is an open-source platform for managing the end-to-end machine learning lifecycle. It was developed by Databricks and is now a part of the Linux Foundation. MLflow aims to simplify the process of tracking experiments, packaging code, reproducing runs, and sharing results across different ML frameworks.
+
+Here's an overview of its key components:
+
+1. **Tracking**: MLflow allows users to track experiments to record and compare parameters, code versions, metrics, and output files across different runs to understand what works best.
+
+2. **Projects**: MLflow Projects are a standard format for packaging reusable data science code. Each project is a directory with code, a `MLproject` file, and optionally other files or directories.
+
+3. **Models**: MLflow provides a central repository to store and manage machine learning models in various formats. It supports models in flavors such as Python functions, PyTorch, TensorFlow, Scikit-learn, and more.
+
+4. **Registry**: MLflow Model Registry is a collaborative hub for organizing, sharing, and managing ML models throughout their lifecycle. It helps teams to version, track, and deploy models in production.
+
+5. **Deployment**: MLflow supports deploying models to a variety of platforms including Apache Spark, Kubernetes, Docker containers, and REST APIs, making it easier to put models into production.
+
+Overall, MLflow facilitates collaboration among data scientists, streamlines the development process, and helps in managing the lifecycle of machine learning projects efficiently.
+
+
+
+What is Dagshub ?
+
+DagsHub is a web-based platform designed for versioning, collaborating, and managing data science and machine learning projects. It integrates various tools and workflows to provide an end-to-end solution for the machine learning lifecycle. Here are some of the key features and components of DagsHub:
+
+1. **Version Control**: DagsHub uses Git and DVC (Data Version Control) to manage and version code, data, and models. This allows for reproducibility and better collaboration among team members.
+
+2. **Collaboration**: Similar to GitHub, DagsHub provides tools for team collaboration, including pull requests, issues, and discussion boards. This makes it easier for teams to work together on machine learning projects.
+
+3. **Data Management**: DagsHub offers features for managing large datasets, including storage, versioning, and sharing. It integrates with cloud storage solutions like AWS S3, Google Cloud Storage, and Azure Blob Storage.
+
+4. **Experiment Tracking**: DagsHub integrates with MLflow for experiment tracking, allowing users to log, compare, and visualize experiments. This helps in understanding the performance of different models and configurations.
+
+5. **Pipelines**: DagsHub supports the creation and management of machine learning pipelines, enabling the automation of workflows from data preprocessing to model deployment.
+
+6. **Notebooks**: The platform allows users to host Jupyter Notebooks, making it easy to document and share experiments and findings.
+
+7. **Integration with Popular Tools**: DagsHub integrates with popular machine learning tools and frameworks, such as TensorFlow, PyTorch, Scikit-learn, and more.
+
